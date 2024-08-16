@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; 
+    background-color: rgb(35, 35, 35);
+}
+
+/* navpart */
+#menu{
+    display: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+nav > div{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.navBar {
+    margin-right: 30px;
+    color: white;
+}
+
+.homeBtn {
+padding: 10px 30px;
+border-radius: 25px;
+background-color:  rgb(212, 96, 53);
+color: white;
+font-weight: bold;
+}
+
